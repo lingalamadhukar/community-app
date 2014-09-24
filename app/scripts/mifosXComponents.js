@@ -208,7 +208,8 @@ define(['Q', 'underscore', 'mifosX'], function (Q) {
             'main/ProfileController',
             'main/ViewMakerCheckerTaskController',
             'main/AdHocQuerySearchController',
-            'accounting/AccOGMController'
+            'accounting/AccOGMController',
+            'accounting/DefineOpeningBalancesController'
         ],
         filters: [
             'StatusLookup',
